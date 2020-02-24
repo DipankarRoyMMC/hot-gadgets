@@ -1,8 +1,116 @@
+body{
+    font-family: 'Poppins', 'open-sans';
+    font-weight: 300;
+}
 img{
     max-width:100%;
 }
+
+nav.navbar {
+    padding: 20px 0;
+}
+
+nav.navbar .nav-item .nav-link {
+    font-weight: 500;
+    padding: 15px;
+}
+
+
 .slider{
-    background-image: url(images/bg/biography-bg.png);
     background-size:cover;
     background-position: center;
+    background-color: #fff;
+}
+.slider .carousel-indicators li {
+    background-color: gray;
+    height: 8px;
+    width: 15px;
+    border-radius: 10px;
+    transition:.3s;
+    border-top: 0px solid;
+    border-bottom: 0px solid;
+}
+
+.slider .carousel-indicators li.active {
+    width: 25px;
+    background-color: #FFC51E;
+}
+
+.buy-now-btn{
+    background-color: #000000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size:15px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    margin-top: 15px;
+}
+.slide-img{
+    position: relative;
+}
+.slide-img::before {
+    position: absolute;
+    left: -200px;
+    top: 30%;
+    content: 'BEST PRODUCTS';
+    transform: rotate(270deg);
+    font-size: 45px;
+    color: #f1f1f1;
+    font-weight: 700;
+}
+.card{
+    text-align: center;
+}
+.title {
+    margin: 30px 0;
+}
+
+.title h1 {
+    font-size: 30px;
+    color: #000;
+}
+
+.title a {
+    color: #FFC51E;
+    font-weight: 400;
+}
+.title {
+    margin-bottom:30px;
+}
+
+.title h1 {
+    font-size: 30px;
+    color: #000;
+}
+
+.title a {
+    color: #FFC51E;
+    font-weight: 400;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 10px 30px #ddd;
+    padding: 40px 20px 10px;
+    border-radius: 5px;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.title h1 {
+    font-size: 30px;
+    color: #000;
+}
+
+.title a {
+    color: #FFC51E;
+    font-weight: 400;
+}
+
+section {
+    margin: 80px 0;
 }
